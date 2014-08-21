@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseApp.Api", "BaseApp.Api\BaseApp.Api.csproj", "{2421F9E2-351E-4A73-B080-CFC5E3FE9ADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseApp.Data", "BaseApp.Data\BaseApp.Data.csproj", "{0F30C9F7-AA5E-4796-9C8F-5B68DFA85403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseApp.Web", "BaseApp.Web\BaseApp.Web.csproj", "{8C9C5806-F0B3-49B9-A369-FD6A614EC157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseApp.Model", "BaseApp.Model\BaseApp.Model.csproj", "{AA12951B-E82E-4F5A-AE4D-C47B55AEADB4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://hpjosealonso:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BaseApp.Api\\BaseApp.Api.csproj
+		SccProjectName1 = BaseApp.Api
+		SccLocalPath1 = BaseApp.Api
+		SccProjectUniqueName2 = BaseApp.Data\\BaseApp.Data.csproj
+		SccProjectName2 = BaseApp.Data
+		SccLocalPath2 = BaseApp.Data
+		SccProjectUniqueName3 = BaseApp.Model\\BaseApp.Model.csproj
+		SccProjectName3 = BaseApp.Model
+		SccLocalPath3 = BaseApp.Model
+		SccProjectUniqueName4 = BaseApp.Web\\BaseApp.Web.csproj
+		SccProjectName4 = BaseApp.Web
+		SccLocalPath4 = BaseApp.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2421F9E2-351E-4A73-B080-CFC5E3FE9ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2421F9E2-351E-4A73-B080-CFC5E3FE9ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2421F9E2-351E-4A73-B080-CFC5E3FE9ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2421F9E2-351E-4A73-B080-CFC5E3FE9ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F30C9F7-AA5E-4796-9C8F-5B68DFA85403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F30C9F7-AA5E-4796-9C8F-5B68DFA85403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F30C9F7-AA5E-4796-9C8F-5B68DFA85403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F30C9F7-AA5E-4796-9C8F-5B68DFA85403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9C5806-F0B3-49B9-A369-FD6A614EC157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9C5806-F0B3-49B9-A369-FD6A614EC157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9C5806-F0B3-49B9-A369-FD6A614EC157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9C5806-F0B3-49B9-A369-FD6A614EC157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA12951B-E82E-4F5A-AE4D-C47B55AEADB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA12951B-E82E-4F5A-AE4D-C47B55AEADB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA12951B-E82E-4F5A-AE4D-C47B55AEADB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA12951B-E82E-4F5A-AE4D-C47B55AEADB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

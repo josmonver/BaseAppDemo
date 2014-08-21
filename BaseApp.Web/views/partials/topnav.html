@@ -1,0 +1,28 @@
+﻿<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Base App</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li ui-sref-active="active"><a ui-sref="anon.home">Home</a></li>
+                <li ui-sref-active="active"><a ui-sref="private.state2">state 2</a></li>
+                <li ui-sref-active="active" data-authenticated="false"><a ui-sref="anon.login">Log in</a></li>
+            </ul>
+            <div class="pull-right user-info" data-authenticated="true" ng-controller="UserInfoController">
+                <span>| Welcome <strong>{{ currentUser.userName }}</strong></span>
+                <span><a href="#" ng-click="logout()">Log out</a></span>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>

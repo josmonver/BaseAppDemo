@@ -1,0 +1,34 @@
+{
+  "name": "UIRouterDemo",
+  "version": "0.0.0",
+  "description": "Use of UI Router",
+  "main": "app.js",
+  "keywords": [
+    "Ui-router",
+    "angular",
+    "spa"
+  ],
+  "authors": [
+    "Jose Alonso Monge Vera"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.16",
+    "angular-animate": "~1.2.16",
+    "angular-ui-router": "~0.2.10",
+    "bootstrap": "~3.1.1",
+    "fontawesome": "~4.0.3",
+    "animate.css": "~3.1.0",
+    "toastr": "~2.0.1",
+    "spin.js": "~2.0.0"
+  }
+}

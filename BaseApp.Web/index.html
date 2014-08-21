@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Base app</title>
+    <!--<link href="css/bootstrap.superhero.min.css" rel="stylesheet" />-->
+    <link href="components/bootstrap/dist/css/bootstrap.superhero.min.css" rel="stylesheet" />
+    <link href="components/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="components/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="components/toastr/toastr.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+
+    <style>
+        /* This helps the ng-show/ng-hide animations start at the right place. */
+        /* Since Angular has this but needs to load, this gives us the class early. */
+        .ng-hide {
+            display: none!important;
+        }
+    </style>
+</head>
+
+<body data-ng-controller="AppController as vm">
+
+    <div data-ng-show="isBusy" class="page-splash dissolve-animation">
+        <div data-cc-spinner="spinnerOptions"></div>
+        <div class="page-splash-message page-splash-message-subtle">{{busyMessage}}</div>
+    </div>
+
+    <div data-ng-include="'views/partials/topnav.html'"></div>
+
+    <div class="container-fluid" ui-view ng-cloak></div>
+
+    <!-- libs -->
+    <script src="components/jquery/dist/jquery.min.js"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="components/angular/angular.min.js"></script>
+    <script src="components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="components/angular-animate/angular-animate.min.js"></script>
+    <script src="components/toastr/toastr.min.js"></script>
+    <script src="components/spin.js/spin.js"></script>
+    <!-- Set up and config -->
+    <script src="app.js"></script>
+    <script src="app/config.js"></script>
+    <script src="app/config.route.js"></script>
+    <!-- Common -->
+    <script src="app/common/common.js"></script>
+    <script src="app/common/logger.js"></script>
+    <script src="app/common/spinner.js"></script>
+    <!-- app Services -->
+    <script src="app/services/directives.js"></script>
+    <script src="app/services/base64.js"></script>
+    <script src="app/services/authService.js"></script>
+    <!-- app Controllers -->
+    <script src="app/controllers/appController.js"></script>
+    <script src="app/controllers/loginController.js"></script>
+    <script src="app/controllers/userInfoController.js"></script>
+    <script src="app/controllers/homeController.js"></script>
+
+    
+
+</body>
+</html>
+
